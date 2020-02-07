@@ -1,0 +1,18 @@
+<table>
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>department_id</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% "\\response\\".forEach(function(entry){%>
+            <tr>
+                <td><%= entry.id %></td>
+                <td><%= entry.name %></td>
+                <td><%= entry.dept_id %></td>
+            </tr>
+        <% }) %>
+        </tbody>
+</table>
